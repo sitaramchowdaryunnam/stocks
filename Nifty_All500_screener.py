@@ -89,7 +89,7 @@ def Loaddata():
                 print("EMA cross fresh Sell : ", data.iloc[-1]['Symbol'])
 
             #print(data.iloc[-1])
-            data['emacross'] = data.apply(emacross, axis=1)
+            #data['emacross'] = data.apply(emacross, axis=1)
             # print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
             # if data.iloc[-1]['emacross']:
             #     print("@@@@@@@@@@@    ema cross over @@@@@@@@@@@@")
@@ -98,5 +98,5 @@ def Loaddata():
         except:
             print("you are in exception")
             pass
-Importdata()
+#Importdata()
 Loaddata()            
