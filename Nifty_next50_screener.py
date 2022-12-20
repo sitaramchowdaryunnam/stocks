@@ -7,13 +7,15 @@ import pandas_ta as talib
 import matplotlib.pyplot as plt
 
 #stocks=[ 'ACC',	 'ACCELYA',	'ACCURACY', 'ACE', 'ACEINTEG', 'ACI', 'ADANIENT', 'ADANIGREEN', 'ADANIPORTS', 'ADANIPOWER', 'ADANITRANS', 'ADFFOODS', 'ADL', 'ADORWELD', 'ADROITINFO', 'ADSL', 'ADVANIHOTR', 'ADVENZYMES',]
-stocks=['ADANIENT',	'TCS',	'RELIANCE',	'AXISBANK',	'INDUSINDBK',	'ULTRACEMCO',	'ICICIBANK',	'NESTLEIND',	'WIPRO',	'SBIN',	'ONGC',	'DIVISLAB',	'HCLTECH',	'INFY',	'TATACONSUM',	'ASIANPAINT',	'SUNPHARMA',	'ITC',	'BAJAJFINSV',	'HDFC',	'APOLLOHOSP',	'CIPLA',	'BAJAJ-AUTO',	'JSWSTEEL',	'KOTAKBANK',	'TITAN',	'COALINDIA',	'GRASIM',	'BPCL',	'HINDALCO',	'HDFCBANK',	'HEROMOTOCO',	'DRREDDY',	'BAJFINANCE',	'TATASTEEL',	'TECHM',	'POWERGRID',	'HDFCLIFE',	'ADANIPORTS',	'NTPC',	'BRITANNIA',	'MARUTI',	'LT',	'M&M',	'BHARTIARTL',	'HINDUNILVR',	'TATAMOTORS',	'UPL',	'EICHERMOT',	'SBILIFE',]
+#stocks=['ADANIENT',	'TCS',	'RELIANCE',	'AXISBANK',	'INDUSINDBK',	'ULTRACEMCO',	'ICICIBANK',	'NESTLEIND',	'WIPRO',	'SBIN',	'ONGC',	'DIVISLAB',	'HCLTECH',	'INFY',	'TATACONSUM',	'ASIANPAINT',	'SUNPHARMA',	'ITC',	'BAJAJFINSV',	'HDFC',	'APOLLOHOSP',	'CIPLA',	'BAJAJ-AUTO',	'JSWSTEEL',	'KOTAKBANK',	'TITAN',	'COALINDIA',	'GRASIM',	'BPCL',	'HINDALCO',	'HDFCBANK',	'HEROMOTOCO',	'DRREDDY',	'BAJFINANCE',	'TATASTEEL',	'TECHM',	'POWERGRID',	'HDFCLIFE',	'ADANIPORTS',	'NTPC',	'BRITANNIA',	'MARUTI',	'LT',	'M&M',	'BHARTIARTL',	'HINDUNILVR',	'TATAMOTORS',	'UPL',	'EICHERMOT',	'SBILIFE',]
+stocks=['INDIGO','ZOMATO','MPHASIS','BANKBARODA','BAJAJHLDNG','BEL','HAVELLS','BOSCHLTD','TATAPOWER','NAUKRI','LICI','PAYTM','GAIL','HAL',	'ADANITRANS',	'MCDOWELL-N',	'CHOLAFIN',	'ICICIPRULI',	'MARICO',	'BERGEPAINT',	'SRF',	'SIEMENS',	'SBICARD',	'ATGL',	'DMART',	'COLPAL',	'IRCTC',	'PGHH',	'BIOCON',	'ADANIGREEN',	'LTIM',	'BANDHANBNK',	'MUTHOOTFIN',	'AMBUJACEM',	'IOC',	'SHREECEM',	'VEDL',	'PIIND',	'PIDILITIND',	'ICICIGI',	'HDFCAMC',	'GODREJCP',	'MOTHERSON',	'NYKAA',	'DABUR',	'ACC',	'TORNTPHARM',	'DLF',	'GLAND',	'INDUSTOWER',
+]
 start_date=date(2021,1,1)
 end_date=date.today()
 def Importdata():
     for stock in stocks:
         rawdata = get_history(symbol=stock,start=start_date,end=end_date)
-        file_name = 'N50data/{}.csv'.format(stock)
+        file_name = 'Nifty_next50/{}.csv'.format(stock)
         df = pd.DataFrame(rawdata)
         df.to_csv(file_name,encoding='utf-8')
         print(stock)
@@ -51,7 +53,7 @@ def emacross(data):
 def Loaddata():
     for stock in stocks:
         try:
-            data = pd.read_csv('N50data/{}.csv'.format(stock)) 
+            data = pd.read_csv('Nifty_next50/{}.csv'.format(stock)) 
             print(stock) 
             print("###################################################################################################")
             close = data.iloc[-1]['Close']
@@ -86,9 +88,9 @@ def Loaddata():
             if fresh_sell > 0:
                 print("EMA cross fresh Sell")
 
-            print(data.iloc[-1])
+            #print(data.iloc[-1])
             data['emacross'] = data.apply(emacross, axis=1)
-            print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+            # print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
             # if data.iloc[-1]['emacross']:
             #     print("@@@@@@@@@@@    ema cross over @@@@@@@@@@@@")
             #     print(stock)
@@ -96,5 +98,5 @@ def Loaddata():
         except:
             print("you are in exception")
             pass
-Importdata()
+#Importdata()
 Loaddata()            
