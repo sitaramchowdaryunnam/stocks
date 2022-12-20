@@ -1,11 +1,12 @@
 from nsepy import get_history
 from datetime import date,datetime
 import pandas as pd
-import talib  as talib
 import numpy as np
-#import matplotlib.pyplot as plt
+import pandas_ta as talib
+#import talib
+import matplotlib.pyplot as plt
 
-stocks=[ 'ACC'] #,	 'ACCELYA',	'ACCURACY', 'ACE', 'ACEINTEG', 'ACI', 'ADANIENT', 'ADANIGREEN', 'ADANIPORTS', 'ADANIPOWER', 'ADANITRANS', 'ADFFOODS', 'ADL', 'ADORWELD', 'ADROITINFO', 'ADSL', 'ADVANIHOTR', 'ADVENZYMES',]
+stocks=[ 'ACC',	 'ACCELYA',	'ACCURACY', 'ACE', 'ACEINTEG', 'ACI', 'ADANIENT', 'ADANIGREEN', 'ADANIPORTS', 'ADANIPOWER', 'ADANITRANS', 'ADFFOODS', 'ADL', 'ADORWELD', 'ADROITINFO', 'ADSL', 'ADVANIHOTR', 'ADVENZYMES',]
 start_date=date(2021,1,1)
 end_date=date.today()
 def Importdata():
@@ -15,25 +16,78 @@ def Importdata():
         df = pd.DataFrame(rawdata)
         df.to_csv(file_name,encoding='utf-8')
         print(stock)
-
+def buy_sell_function(data):
+    buy_list = []
+    sell_list = []
+    flag_long = False
+    flag_short = False
+    for i in range(0,len(data)):
+        if data['ema21'][i] < data['ema55'][i] and data['ema21'][i] > data['ema5'][i] and flag_long == False and flag_short == False:
+            buy_list.append(data['Close'][i])
+            sell_list.append(np.nan)
+            flag_short = True
+        elif data['ema21'][i] > data['ema55'][i] and data['ema21'][i] < data['ema5'][i] and flag_short == False and flag_long == False:
+            buy_list.append(data['Close'][i])
+            sell_list.append(np.nan)
+            flag_long = True
+        elif flag_short == True and data['ema5'][i] > data['ema21'][i]:
+            sell_list.append(data['Close'][i])
+            buy_list.append(np.nan)
+            flag_short = False
+        elif flag_long == True and data['ema5'][i] < data['ema21'][i]:
+            sell_list.append(data['Close'][i])
+            buy_list.append(np.nan)
+            flag_long = False
+        else:
+            buy_list.append(np.nan)
+            sell_list.append(np.nan)
+    
+    return (buy_list, sell_list)
 def emacross(data):
+    #print("check")
     return data['ema5'] > data['ema21'] and data['ema21'] > data['ema55']
 
 def Loaddata():
     for stock in stocks:
         try:
-            ema = talib.get_functions('EMA', timeperiod=5)
             data = pd.read_csv('data/{}.csv'.format(stock)) 
-            print("scanning for : " ,stock) 
-            data['ema5']   = talib.EMA(data['close'], timeperiod=5)
-            data['ema21']  = talib.EMA(data['close'], timeperiod=21)
-            data['ema55']  = talib.EMA(data['close'], timeperiod=55)
-            cc = data.iloc[-1]
-            print("!!!!!!")
-            if (cc['ema5'] > cc['ema21']) and (cc['ema21'] > cc['ema55']):
-                print("!!!!!!")
-                print("buy signal")
+            print(stock) 
+            print("###################################################################################################")
+            close = data.iloc[-1]['Close']
+            open = data.iloc[-1]['Open']
+            high = data.iloc[-1]['High']
+            low = data.iloc[-1]['Low']
+#### identificatio of streangth candle
+            SC_Candle = False
+            CH = high - low
+            if close > open:
+                BH = close - open
+            else:
+                BH = open - close
+            if BH > 0: 
+                SC = (BH/CH) * 100
+                SC_Candle = False
+                if SC > 50:
+                    SC_Candle = True
+
+            data['ema5']  = talib.ema(data['Close'], length=5)
+            data['ema21']  = talib.ema(data['Close'], length=21)
+            data['ema55']  = talib.ema(data['Close'], length=55)
+            buy_sell_function(data)
+
+            print(buy_sell_function(data)[0])
+            data['Buy'] =   buy_sell_function(data)[0]
+            data['Sell'] = buy_sell_function(data)[1]
+            
+            print(data)
+            data['emacross'] = data.apply(emacross, axis=1)
+            print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+            if data.iloc[-1]['emacross']:
+                print("@@@@@@@@@@@    ema cross over @@@@@@@@@@@@")
+                print(stock)
+                #print(rawdata)
         except:
+            print("you are in exception")
             pass
 Loaddata()            
 #Importdata()
