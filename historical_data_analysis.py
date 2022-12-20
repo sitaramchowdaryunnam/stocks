@@ -24,5 +24,5 @@ def Loaddata():
             print(rawdata)
         except:
             pass
-Loaddata()            
+#Loaddata()            
 Importdata()

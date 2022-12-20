@@ -1,5 +1,5 @@
 #import libraries
-import pandas_datareader as pdr
+import pandas as pdr
 import numpy as np
 import datetime
 import matplotlib.pyplot as plt
