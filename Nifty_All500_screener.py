@@ -85,8 +85,12 @@ def Loaddata():
             fresh_sell = data.iloc[-1]['Sell']
             if fresh_buy > 0:
                 print("EMA cross fresh Buy : ", data.iloc[-1]['Symbol'])
+                with open("Buy_file.txt", "a") as f:
+                    f.write("new text")
             if fresh_sell > 0:
                 print("EMA cross fresh Sell : ", data.iloc[-1]['Symbol'])
+                with open("Sell_file.txt", "a") as f:
+                    f.write("new text")
 
             #print(data.iloc[-1])
             #data['emacross'] = data.apply(emacross, axis=1)
