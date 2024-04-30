@@ -50,7 +50,7 @@ def analyze_stock(stock, data):
                                             'Stock Name': stock,
                                             'Entry price': entry_close,
                                             'Entry Date': entry_date,
-                                            'Exit Price': sell_close,
+                                            'LTP': sell_close,
                                             'Exit Date': sell_date,
                                             'Loss': loss,
                                             'LH 5%': (100 - (entry_close / sell_close ) * 100),
@@ -67,7 +67,7 @@ def analyze_stock(stock, data):
                                                 'Stock Name': stock,
                                                 'Entry price': entry_close,
                                                 'Entry Date': entry_date,
-                                                'Exit Price': sell_close,
+                                                'LTP': sell_close,
                                                 'Exit Date': sell_date,
                                                 'Profit': profit,
                                                 'PH 10%': profit_percent,
@@ -90,125 +90,13 @@ def analyze_stock(stock, data):
                                             'Entry price': entry_close,
                                             'Entry Date': entry_date,
                                             'Entry Type': entrytype,
-                                            'Exit Price': last_close,
+                                            'LTP': last_close,
                                             'Comment':"In Progress",
                                             'PNL of In progress': pnl,
                                             'In Progress PNL%': profit_percent
                                         }
                             report_data.append(new_record)
-                            # if entry_close > last_close:
-                            #     loss = entry_close - last_close
-                            #     loss_percent = (last_close / entry_close - 1) * 100
-                            #     comment = "SL HIT" if loss_percent <= -10 else "Indicator Exit"
-                            #     new_record = {
-                            #                 'Stock Name': stock,
-                            #                 'Entry price': entry_close,
-                            #                 'Entry Date': entry_date,
-                            #                 'Exit Price': last_close,
-                            #                 'Exit Date': sell_date,
-                            #                 'Loss': loss,
-                            #                 'LH 5%': (100 - (entry_close / last_close ) * 100),
-                            #                 'Comment':comment,
-                            #                 'Entry Type': entrytype
-                                    
-                            #             }
-                            #     report_data.append(new_record)
-                            # elif entry_close < last_close:
-                            #     profit = last_close - entry_close
-                            #     profit_percent = (last_close / entry_close - 1) * 100
-                            #     comment = "Profit HIT" if profit_percent >= 20 else "Indicator Exit"
-                            #     new_record = {
-                            #                     'Stock Name': stock,
-                            #                     'Entry price': entry_close,
-                            #                     'Entry Date': entry_date,
-                            #                     'Exit Price': last_close,
-                            #                     'Exit Date': sell_date,
-                            #                     'Profit': profit,
-                            #                     'PH 10%': profit_percent,
-                            #                     'Comment':"Profit HIT",
-                            #                     'Entry Type': entrytype
-                            #                 }
-                            #     report_data.append(new_record)
-                        # sell_row = row
-                        # for idx, sell_row in data.iloc[index:].iterrows():
-                        #     sell_close = sell_row['Close']
-                        #     sell_date = sell_row['Date']
                             
-                        #     if sell_date > entry_date and sell_row['exit_buy'] == 'Exit buy':
-                        #         if entry_close > sell_close:
-                        #             # loss = entry_close - sell_close
-                        #             # lh = "5% SL hit" if (100 - (sell_close / entry_close) * 100) >= -5 else ""
-                        #             new_record = {
-                        #                 'Stock Name': stock,
-                        #                 'Entry price': entry_close,
-                        #                 'Entry Date': entry_date,
-                        #                 'Exit Price': sell_close,
-                        #                 'Exit Date': sell_date,
-                        #                 'Loss': entry_close - sell_close,
-                        #                 'LH 5%': (100 - (entry_close / sell_close ) * 100),
-                        #                 'Comment':"indicator Exit",
-                        #                 'Entry Type': entrytype
-                                
-                        #             }
-                        #         else:
-                        #             # profit = sell_close - entry_close
-                        #             # ph = "10% target hit" if (100 - (entry_close / sell_close) * 100) >= 10 else ""
-                        #             new_record = {
-                        #                 'Stock Name': stock,
-                        #                 'Entry price': entry_close,
-                        #                 'Entry Date': entry_date,
-                        #                 'Exit Price': sell_close,
-                        #                 'Exit Date': sell_date,
-                        #                 'Profit': sell_close - entry_close,
-                        #                 'PH 10%': (100 - (entry_close / sell_close) * 100),
-                        #                 'Comment':"indicator Exit",
-                        #                 'Entry Type': entrytype
-                        #             }
-                        #         report_data.append(new_record)
-                        #         exit_found = True
-                        #         break
-                        #     elif sell_date > entry_date:
-                        #         if entry_close > sell_close:
-                        #             loss = entry_close - sell_close
-                        #             loss_pern=(100 - ( entry_close / sell_close ) * 100)
-                        #             # print("loss % :",loss_pern)
-                        #             lh = "5% SL hit" if (100 - (entry_close / sell_close ) * 100) <= -5 else "null"
-
-                        #             if loss_pern < -10:
-                        #                 new_record = {
-                        #                     'Stock Name': stock,
-                        #                     'Entry price': entry_close,
-                        #                     'Entry Date': entry_date,
-                        #                     'Exit Price': sell_close,
-                        #                     'Exit Date': sell_date,
-                        #                     'Loss': loss,
-                        #                     'LH 5%': loss_pern,
-                        #                     'Comment':"SL HIT",
-                        #                     'Entry Type': entrytype
-                        #                 }
-                        #                 report_data.append(new_record)
-                        #                 exit_found = True
-                        #                 break
-                        #         elif entry_close < sell_close:
-                        #             profit = sell_close - entry_close
-                        #             profit_pern=(100 - (entry_close / sell_close) * 100)
-                        #             # print('Profit % :',profit_pern)
-                        #             ph = "10% target hit" if (100 - (entry_close / sell_close) * 100) >= 15 else "null"
-                        #             if profit_pern > 20:
-                        #                 new_record = {
-                        #                     'Stock Name': stock,
-                        #                     'Entry price': entry_close,
-                        #                     'Entry Date': entry_date,
-                        #                     'Exit Price': sell_close,
-                        #                     'Exit Date': sell_date,
-                        #                     'Profit': profit,
-                        #                     'PH 10%': profit_pern,
-                        #                     'Comment':"Profit HIT",
-                        #                     'Entry Type': entrytype
-                        #                 }
-                        #                 report_data.append(new_record)
-                        #                 exit_found = True
-                        #                 break
                             
     except FileNotFoundError as e:
             print(f"File not found: {e}")

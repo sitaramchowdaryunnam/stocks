@@ -56,7 +56,7 @@ service = build("gmail", "v1", credentials=creds)
 
 sender = 'muni.vadlamudi47@gmail.com'
 to = ['muni.vadlamudi47@gmail.com'] 
-bcc = ['muni.vadlamudi47@gmail.com']
+bcc = ['vnswamy6@gmail.com','vikramkambhoji@gmail.com','wealthcoachjay@gmail.com']
 subject = f"Daily Report - {datetime.now().strftime('%Y-%m-%d')}"
 message_text = "Please check the attached report for daily analysis. \n This is purely for educational and personal viewing, and not a recommendation for purchasing."
 
