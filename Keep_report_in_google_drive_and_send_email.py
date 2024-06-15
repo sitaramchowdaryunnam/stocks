@@ -10,13 +10,17 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
 
 # Load your existing report CSV file
 report_file = 'C:/Users/muniv/Desktop/Market/marketdata_analysis/Reports_gen_multi_d30-08-2023__Test_with_URL.csv'
 df = pd.read_csv(report_file)
 
-# Convert 'Entry Date' to datetime format
-df['Entry Date'] = pd.to_datetime(df['Entry Date'])
+# Convert 'Entry Date' to datetime format, specify the format
+# df['Entry Date'] = pd.to_datetime(df['Entry Date'], format='%d-%m-%Y')
+df['Entry Date'] = pd.to_datetime(df['Entry Date'], format='%Y-%m-%d')
+
 
 # Sort dataframe by 'Entry Date'
 df_sorted = df.sort_values('Entry Date')
@@ -32,7 +36,7 @@ df_filtered = df_sorted[(df_sorted['Entry Type'] == 'Golden entry') & (df_sorted
 # Sort the filtered DataFrame in descending order by 'Entry Date'
 df_filtered = df_filtered.sort_values('Entry Date', ascending=False)
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
+SCOPES = ["https://www.googleapis.com/auth/gmail.send", "https://www.googleapis.com/auth/drive.file"]
 
 # Load previously obtained credentials from token.pickle
 creds = None
@@ -56,7 +60,7 @@ service = build("gmail", "v1", credentials=creds)
 
 sender = 'muni.vadlamudi47@gmail.com'
 to = ['muni.vadlamudi47@gmail.com'] 
-bcc = ['vnswamy6@gmail.com','vikramkambhoji@gmail.com','wealthcoachjay@gmail.com','vijay.sindhu@gmail.com','janakiram264@gmail.com','sitaramchowdaryunnam@gmail.com']
+bcc = ['vnswamy6@gmail.com','vikramkambhoji@gmail.com','wealthcoachjay@gmail.com','vijay.sindhu@gmail.com','janakiram264@gmail.com','sitaramchowdaryunnam@gmail.com','krish3ybk@gmail.com']
 subject = f"Daily Report - {datetime.now().strftime('%Y-%m-%d')}"
 message_text = "Please check the attached report for daily analysis. \n This is purely for educational and personal viewing, and not a recommendation for purchasing."
 
@@ -87,3 +91,35 @@ try:
     print(f"Sent message Message Id: {sent_message['id']}")
 except HttpError as error:
     print(f"An error occurred: {error}")
+
+# Google Drive authentication
+gauth = GoogleAuth()
+gauth.DEFAULT_SETTINGS['client_config_file'] = "client_secrets.json"  # Explicitly set the client secrets file
+
+# Try to load saved credentials
+if os.path.exists("drive_token.pickle"):
+    with open("drive_token.pickle", "rb") as token:
+        gauth.LoadCredentialsFile("drive_token.pickle")
+
+# Check if the credentials need to be refreshed
+if gauth.credentials is None or gauth.access_token_expired:
+    gauth.LocalWebserverAuth()  # Creates a local webserver for authentication
+    # Save the credentials for the next run
+    gauth.SaveCredentialsFile("drive_token.pickle")
+
+drive = GoogleDrive(gauth)
+
+# Check if the file already exists in Google Drive
+file_list = drive.ListFile({'q': f"title = '{os.path.basename(report_file)}' and trashed = false"}).GetList()
+if file_list:
+    # If the file exists, update it
+    file_drive = file_list[0]
+    file_drive.SetContentFile(report_file)
+    file_drive.Upload()
+    print(f'Updated file: {file_drive["title"]}')
+else:
+    # If the file does not exist, create it
+    file_drive = drive.CreateFile({'title': os.path.basename(report_file)})
+    file_drive.SetContentFile(report_file)
+    file_drive.Upload()
+    print(f'Uploaded file: {file_drive["title"]}')
