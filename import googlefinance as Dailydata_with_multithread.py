@@ -5,7 +5,8 @@ import multiprocessing
 import time
 
 # Replace 'YOUR_API_KEY' with your actual EODHistoricalData API key
-API_KEY = '667edcb5617102.30098789'
+API_KEY = 
+# '667edcb5617102.30098789'
 
 def get_eod_historical_data(stock_symbol, start_date, end_date):
     base_url = f'https://eodhistoricaldata.com/api/eod/{stock_symbol}.NS'

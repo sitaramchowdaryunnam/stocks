@@ -5,7 +5,8 @@ from alpha_vantage.timeseries import TimeSeries
 import time
 
 # Replace 'YOUR_API_KEY' with your actual Alpha Vantage API key
-API_KEY = 'WEZCLDSD608ATSNG'
+API_KEY = 
+# 'WEZCLDSD608ATSNG'
 ts = TimeSeries(key=API_KEY, output_format='pandas')
 
 def get_alpha_vantage_historical_data(stock_symbol, start_date, end_date):
