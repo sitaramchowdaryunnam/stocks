@@ -9,4 +9,4 @@ credentials*
 *.json
 token*
 *.pickle
-drive_token.pickle
+drive_token.*
