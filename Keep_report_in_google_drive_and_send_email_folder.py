@@ -58,7 +58,7 @@ service = build("gmail", "v1", credentials=creds)
 
 sender = 'muni.vadlamudi47@gmail.com'
 to = ['muni.vadlamudi47@gmail.com'] 
-bcc = ['vnswamy6@gmail.com','vikramkambhoji@gmail.com','wealthcoachjay@gmail.com','vijay.sindhu@gmail.com','janakiram264@gmail.com','sitaramchowdaryunnam@gmail.com','krish3ybk@gmail.com','sreedhar.siddam@gmail.com']
+bcc = ['vnswamy6@gmail.com','vikramkambhoji@gmail.com','wealthcoachjay@gmail.com','vijay.sindhu@gmail.com','janakiram264@gmail.com','sitaramchowdaryunnam@gmail.com','krish3ybk@gmail.com','sreedhar.siddam@gmail.com','pulipatirajesh12@gmail.com']
 # bcc = ['muni.vadlamudi47@gmail.com']
 subject = f"Daily Report - {datetime.now().strftime('%Y-%m-%d')}"
 message_text = "Please check the attached report for daily analysis. \n This is purely for educational and personal viewing, and not a recommendation for purchasing. \n Please check complete list in the below link \n https://drive.google.com/drive/folders/1G87FSfqMxN44RlnilGBYtf3ME30LR1Vn?usp=drive_link"

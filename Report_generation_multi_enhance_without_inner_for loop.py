@@ -119,7 +119,7 @@ if __name__ == "__main__":
     stock_symbols = import_stock_symbols_from_csv(csv_file_path)
     report_data = []
 
-    max_threads = 25  # Adjust the number of threads as needed
+    max_threads = 50  # Adjust the number of threads as needed
     with concurrent.futures.ThreadPoolExecutor(max_threads) as executor:
         # Create a dictionary to map stock symbols to their respective dataframes
         stock_data = {}

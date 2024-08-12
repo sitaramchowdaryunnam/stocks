@@ -1,0 +1,425 @@
+2024-07-16 21:06:28,655:INFO:Fetched data for 20MICRONS with 2359 records
+2024-07-16 21:06:30,450:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\20MICRONS.csv
+2024-07-16 21:06:31,391:INFO:Fetched data for 21STCENMGM with 1585 records
+2024-07-16 21:06:32,325:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\21STCENMGM.csv
+2024-07-16 21:06:33,202:INFO:Fetched data for 360ONE with 1453 records
+2024-07-16 21:06:33,993:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\360ONE.csv
+2024-07-16 21:06:34,533:INFO:Fetched data for 3IINFOLTD with 677 records
+2024-07-16 21:06:34,962:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\3IINFOLTD.csv
+2024-07-16 21:06:36,483:INFO:Fetched data for 3MINDIA with 2359 records
+2024-07-16 21:06:38,018:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\3MINDIA.csv
+2024-07-16 21:06:39,291:INFO:Fetched data for 3PLAND with 2118 records
+2024-07-16 21:06:40,562:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\3PLAND.csv
+2024-07-16 21:06:41,559:INFO:Fetched data for 5PAISA with 1649 records
+2024-07-16 21:06:42,833:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\5PAISA.csv
+2024-07-16 21:06:44,613:INFO:Fetched data for 63MOONS with 2359 records
+2024-07-16 21:06:46,141:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\63MOONS.csv
+2024-07-16 21:06:47,490:INFO:Fetched data for A2ZINFRA with 2359 records
+2024-07-16 21:06:48,927:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\A2ZINFRA.csv
+2024-07-16 21:06:49,454:INFO:Fetched data for AAATECH with 789 records
+2024-07-16 21:06:49,954:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AAATECH.csv
+2024-07-16 21:06:50,684:INFO:Fetched data for AAKASH with 941 records
+2024-07-16 21:06:51,238:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AAKASH.csv
+2024-07-16 21:06:51,717:INFO:Fetched data for AAREYDRUGS with 729 records
+2024-07-16 21:06:52,223:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AAREYDRUGS.csv
+2024-07-16 21:06:53,107:INFO:Fetched data for AARON with 1337 records
+2024-07-16 21:06:53,951:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARON.csv
+2024-07-16 21:06:54,155:INFO:Fetched data for AARTECH with 253 records
+2024-07-16 21:06:54,290:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARTECH.csv
+2024-07-16 21:06:55,696:INFO:Fetched data for AARTIDRUGS with 2359 records
+2024-07-16 21:06:57,093:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARTIDRUGS.csv
+2024-07-16 21:06:57,623:INFO:Fetched data for AARTIIND with 876 records
+2024-07-16 21:06:58,166:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARTIIND.csv
+2024-07-16 21:06:58,480:INFO:Fetched data for AARTIPHARM with 379 records
+2024-07-16 21:06:58,753:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARTIPHARM.csv
+2024-07-16 21:06:59,456:INFO:Fetched data for AARTISURF with 996 records
+2024-07-16 21:07:00,176:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARTISURF.csv
+2024-07-16 21:07:01,799:INFO:Fetched data for AARVEEDEN with 2355 records
+2024-07-16 21:07:03,150:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARVEEDEN.csv
+2024-07-16 21:07:04,085:INFO:Fetched data for AARVI with 1381 records
+2024-07-16 21:07:04,926:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AARVI.csv
+2024-07-16 21:07:05,951:INFO:Fetched data for AAVAS with 1429 records
+2024-07-16 21:07:07,283:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AAVAS.csv
+2024-07-16 21:07:08,856:INFO:Fetched data for ABAN with 2359 records
+2024-07-16 21:07:10,469:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABAN.csv
+2024-07-16 21:07:12,133:INFO:Fetched data for ABB with 2359 records
+2024-07-16 21:07:13,781:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABB.csv
+2024-07-16 21:07:15,472:INFO:Fetched data for ABBOTINDIA with 2359 records
+2024-07-16 21:07:16,839:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABBOTINDIA.csv
+2024-07-16 21:07:18,137:INFO:Fetched data for ABCAPITAL with 1700 records
+2024-07-16 21:07:19,189:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABCAPITAL.csv
+2024-07-16 21:07:20,946:INFO:Fetched data for ABFRL with 2359 records
+2024-07-16 21:07:22,729:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABFRL.csv
+2024-07-16 21:07:23,513:INFO:Fetched data for ABMINTLLTD with 682 records
+2024-07-16 21:07:23,999:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABMINTLLTD.csv
+2024-07-16 21:07:24,592:INFO:Fetched data for ABSLAMC with 685 records
+2024-07-16 21:07:25,187:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ABSLAMC.csv
+2024-07-16 21:07:26,077:INFO:Fetched data for ACC with 876 records
+2024-07-16 21:07:26,604:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACC.csv
+2024-07-16 21:07:28,666:INFO:Fetched data for ACCELYA with 2359 records
+2024-07-16 21:07:30,511:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACCELYA.csv
+2024-07-16 21:07:31,970:INFO:Fetched data for ACCURACY with 890 records
+2024-07-16 21:07:32,947:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACCURACY.csv
+2024-07-16 21:07:35,003:INFO:Fetched data for ACE with 2359 records
+2024-07-16 21:07:36,792:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACE.csv
+2024-07-16 21:07:37,494:INFO:Fetched data for ACEINTEG with 768 records
+2024-07-16 21:07:38,102:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACEINTEG.csv
+2024-07-16 21:07:38,610:INFO:Fetched data for ACI with 460 records
+2024-07-16 21:07:39,108:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACI.csv
+2024-07-16 21:07:39,447:INFO:Fetched data for ACL with 295 records
+2024-07-16 21:07:39,763:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACL.csv
+2024-07-16 21:07:41,730:INFO:Fetched data for ACLGATI with 2359 records
+2024-07-16 21:07:43,695:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ACLGATI.csv
+2024-07-16 21:07:45,878:INFO:Fetched data for ADANIENSOL with 2215 records
+2024-07-16 21:07:47,620:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADANIENSOL.csv
+2024-07-16 21:07:49,622:INFO:Fetched data for ADANIENT with 2359 records
+2024-07-16 21:07:51,389:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADANIENT.csv
+2024-07-16 21:07:52,484:INFO:Fetched data for ADANIGREEN with 1504 records
+2024-07-16 21:07:53,627:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADANIGREEN.csv
+2024-07-16 21:07:55,267:INFO:Fetched data for ADANIPORTS with 2359 records
+2024-07-16 21:07:56,932:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADANIPORTS.csv
+2024-07-16 21:07:58,524:INFO:Fetched data for ADANIPOWER with 2359 records
+2024-07-16 21:08:00,127:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADANIPOWER.csv
+2024-07-16 21:08:01,780:INFO:Fetched data for ADFFOODS with 2359 records
+2024-07-16 21:08:03,668:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADFFOODS.csv
+2024-07-16 21:08:05,100:INFO:Fetched data for ADL with 1802 records
+2024-07-16 21:08:06,538:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADL.csv
+2024-07-16 21:08:08,556:INFO:Fetched data for ADORWELD with 2359 records
+2024-07-16 21:08:10,562:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADORWELD.csv
+2024-07-16 21:08:12,517:INFO:Fetched data for ADROITINFO with 2132 records
+2024-07-16 21:08:13,941:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADROITINFO.csv
+2024-07-16 21:08:15,776:INFO:Fetched data for ADSL with 2359 records
+2024-07-16 21:08:17,286:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADSL.csv
+2024-07-16 21:08:19,219:INFO:Fetched data for ADVANIHOTR with 2345 records
+2024-07-16 21:08:20,958:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADVANIHOTR.csv
+2024-07-16 21:08:22,323:INFO:Fetched data for ADVENZYMES with 1968 records
+2024-07-16 21:08:23,756:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ADVENZYMES.csv
+2024-07-16 21:08:25,307:INFO:Fetched data for AEGISLOG with 2359 records
+2024-07-16 21:08:26,826:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AEGISLOG.csv
+2024-07-16 21:08:27,055:INFO:Fetched data for AEROFLEX with 216 records
+2024-07-16 21:08:27,191:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AEROFLEX.csv
+2024-07-16 21:08:27,556:INFO:Fetched data for AETHER with 525 records
+2024-07-16 21:08:27,847:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AETHER.csv
+2024-07-16 21:08:28,711:INFO:Fetched data for AFFLE with 1223 records
+2024-07-16 21:08:29,446:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AFFLE.csv
+2024-07-16 21:08:31,148:INFO:Fetched data for AGARIND with 2357 records
+2024-07-16 21:08:32,815:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AGARIND.csv
+2024-07-16 21:08:34,892:INFO:Fetched data for AGI with 2359 records
+2024-07-16 21:08:36,998:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AGI.csv
+2024-07-16 21:08:39,466:INFO:Fetched data for AGRITECH with 2202 records
+2024-07-16 21:08:41,111:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AGRITECH.csv
+2024-07-16 21:08:43,048:INFO:Fetched data for AGROPHOS with 1800 records
+2024-07-16 21:08:44,223:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AGROPHOS.csv
+2024-07-16 21:08:44,690:INFO:Fetched data for AGSTRA with 609 records
+2024-07-16 21:08:45,237:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AGSTRA.csv
+2024-07-16 21:08:45,555:INFO:Fetched data for AHL with 386 records
+2024-07-16 21:08:45,838:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AHL.csv
+2024-07-16 21:08:46,680:INFO:Fetched data for AHLADA with 1181 records
+2024-07-16 21:08:47,565:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AHLADA.csv
+2024-07-16 21:08:49,472:INFO:Fetched data for AHLEAST with 2348 records
+2024-07-16 21:08:51,603:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AHLEAST.csv
+2024-07-16 21:08:53,104:INFO:Fetched data for AHLUCONT with 2359 records
+2024-07-16 21:08:54,966:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AHLUCONT.csv
+2024-07-16 21:08:57,106:INFO:Fetched data for AIAENG with 2359 records
+2024-07-16 21:08:59,040:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AIAENG.csv
+2024-07-16 21:09:00,500:INFO:Fetched data for AIRAN with 1726 records
+2024-07-16 21:09:02,207:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AIRAN.csv
+2024-07-16 21:09:03,276:INFO:Fetched data for AIROLAM with 1196 records
+2024-07-16 21:09:04,448:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AIROLAM.csv
+2024-07-16 21:09:06,217:INFO:Fetched data for AJANTPHARM with 2359 records
+2024-07-16 21:09:08,606:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AJANTPHARM.csv
+2024-07-16 21:09:11,079:INFO:Fetched data for AJMERA with 2359 records
+2024-07-16 21:09:14,041:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AJMERA.csv
+2024-07-16 21:09:15,020:INFO:Fetched data for AJOONI with 804 records
+2024-07-16 21:09:15,721:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AJOONI.csv
+2024-07-16 21:09:17,343:INFO:Fetched data for AKASH with 1764 records
+2024-07-16 21:09:18,778:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKASH.csv
+2024-07-16 21:09:19,742:INFO:Fetched data for AKG with 1109 records
+2024-07-16 21:09:20,573:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKG.csv
+2024-07-16 21:09:20,900:INFO:Fetched data for AKI with 316 records
+2024-07-16 21:09:21,205:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKI.csv
+2024-07-16 21:09:21,746:INFO:Fetched data for AKSHAR with 534 records
+2024-07-16 21:09:22,203:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKSHAR.csv
+2024-07-16 21:09:23,732:INFO:Fetched data for AKSHARCHEM with 1807 records
+2024-07-16 21:09:25,374:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKSHARCHEM.csv
+2024-07-16 21:09:27,457:INFO:Fetched data for AKSHOPTFBR with 2359 records
+2024-07-16 21:09:29,329:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKSHOPTFBR.csv
+2024-07-16 21:09:31,408:INFO:Fetched data for AKZOINDIA with 2359 records
+2024-07-16 21:09:33,214:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AKZOINDIA.csv
+2024-07-16 21:09:35,145:INFO:Fetched data for ALANKIT with 2238 records
+2024-07-16 21:09:37,085:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALANKIT.csv
+2024-07-16 21:09:39,022:INFO:Fetched data for ALBERTDAVD with 2001 records
+2024-07-16 21:09:40,976:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALBERTDAVD.csv
+2024-07-16 21:09:43,857:INFO:Fetched data for ALEMBICLTD with 2359 records
+2024-07-16 21:09:45,985:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALEMBICLTD.csv
+2024-07-16 21:09:48,064:INFO:Fetched data for ALICON with 2359 records
+2024-07-16 21:09:50,186:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALICON.csv
+2024-07-16 21:09:52,319:INFO:Fetched data for ALKALI with 2359 records
+2024-07-16 21:09:54,212:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALKALI.csv
+2024-07-16 21:09:56,057:INFO:Fetched data for ALKEM with 2118 records
+2024-07-16 21:09:58,050:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALKEM.csv
+2024-07-16 21:10:00,119:INFO:Fetched data for ALKYLAMINE with 2359 records
+2024-07-16 21:10:02,013:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALKYLAMINE.csv
+2024-07-16 21:10:04,149:INFO:Fetched data for ALLCARGO with 2359 records
+2024-07-16 21:10:06,101:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALLCARGO.csv
+2024-07-16 21:10:08,095:INFO:Fetched data for ALLSEC with 2359 records
+2024-07-16 21:10:09,986:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALLSEC.csv
+2024-07-16 21:10:12,057:INFO:Fetched data for ALMONDZ with 2336 records
+2024-07-16 21:10:14,132:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALMONDZ.csv
+2024-07-16 21:10:15,028:INFO:Fetched data for ALOKINDS with 1092 records
+2024-07-16 21:10:16,083:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALOKINDS.csv
+2024-07-16 21:10:18,238:INFO:Fetched data for ALPA with 2351 records
+2024-07-16 21:10:20,353:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALPA.csv
+2024-07-16 21:10:22,600:INFO:Fetched data for ALPHAGEO with 2359 records
+2024-07-16 21:10:24,751:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALPHAGEO.csv
+2024-07-16 21:10:26,663:INFO:Fetched data for ALPSINDUS with 2176 records
+2024-07-16 21:10:28,893:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ALPSINDUS.csv
+2024-07-16 21:10:30,936:INFO:Fetched data for AMBER with 1598 records
+2024-07-16 21:10:32,269:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMBER.csv
+2024-07-16 21:10:33,084:INFO:Fetched data for AMBICAAGAR with 798 records
+2024-07-16 21:10:33,693:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMBICAAGAR.csv
+2024-07-16 21:10:35,699:INFO:Fetched data for AMBIKCO with 2359 records
+2024-07-16 21:10:37,627:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMBIKCO.csv
+2024-07-16 21:10:39,762:INFO:Fetched data for AMBUJACEM with 2359 records
+2024-07-16 21:10:41,820:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMBUJACEM.csv
+2024-07-16 21:10:43,723:INFO:Fetched data for AMDIND with 2359 records
+2024-07-16 21:10:46,067:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMDIND.csv
+2024-07-16 21:10:46,986:INFO:Fetched data for AMIORG with 704 records
+2024-07-16 21:10:47,716:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMIORG.csv
+2024-07-16 21:10:49,866:INFO:Fetched data for AMJLAND with 2355 records
+2024-07-16 21:10:51,759:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMJLAND.csv
+2024-07-16 21:10:52,022:INFO:Fetched data for AMNPLST with 168 records
+2024-07-16 21:10:52,204:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMNPLST.csv
+2024-07-16 21:10:54,179:INFO:Fetched data for AMRUTANJAN with 2359 records
+2024-07-16 21:10:56,141:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AMRUTANJAN.csv
+2024-07-16 21:10:56,739:INFO:Fetched data for ANANDRATHI with 642 records
+2024-07-16 21:10:57,283:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANANDRATHI.csv
+2024-07-16 21:10:59,279:INFO:Fetched data for ANANTRAJ with 2359 records
+2024-07-16 21:11:01,527:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANANTRAJ.csv
+2024-07-16 21:11:03,587:INFO:Fetched data for ANDHRAPAP with 2359 records
+2024-07-16 21:11:05,396:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANDHRAPAP.csv
+2024-07-16 21:11:07,368:INFO:Fetched data for ANDHRSUGAR with 2359 records
+2024-07-16 21:11:09,357:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANDHRSUGAR.csv
+2024-07-16 21:11:10,120:INFO:Fetched data for ANGELONE with 991 records
+2024-07-16 21:11:10,956:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANGELONE.csv
+2024-07-16 21:11:12,829:INFO:Fetched data for ANIKINDS with 2320 records
+2024-07-16 21:11:14,466:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANIKINDS.csv
+2024-07-16 21:11:15,742:INFO:Fetched data for ANKITMETAL with 2024 records
+2024-07-16 21:11:17,152:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANKITMETAL.csv
+2024-07-16 21:11:17,707:INFO:Fetched data for ANMOL with 773 records
+2024-07-16 21:11:18,225:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANMOL.csv
+2024-07-16 21:11:19,656:INFO:Fetched data for ANTGRAPHIC with 1942 records
+2024-07-16 21:11:20,758:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANTGRAPHIC.csv
+2024-07-16 21:11:21,777:INFO:Fetched data for ANUP with 1330 records
+2024-07-16 21:11:22,612:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANUP.csv
+2024-07-16 21:11:23,180:INFO:Fetched data for ANURAS with 820 records
+2024-07-16 21:11:23,655:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ANURAS.csv
+2024-07-16 21:11:25,404:INFO:Fetched data for APARINDS with 2359 records
+2024-07-16 21:11:27,043:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APARINDS.csv
+2024-07-16 21:11:28,218:INFO:Fetched data for APCL with 1799 records
+2024-07-16 21:11:29,713:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APCL.csv
+2024-07-16 21:11:31,403:INFO:Fetched data for APCOTEXIND with 2359 records
+2024-07-16 21:11:33,100:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APCOTEXIND.csv
+2024-07-16 21:11:34,167:INFO:Fetched data for APEX with 1699 records
+2024-07-16 21:11:35,342:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APEX.csv
+2024-07-16 21:11:36,759:INFO:Fetched data for APLAPOLLO with 2359 records
+2024-07-16 21:11:38,326:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APLAPOLLO.csv
+2024-07-16 21:11:39,694:INFO:Fetched data for APLLTD with 2359 records
+2024-07-16 21:11:41,302:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APLLTD.csv
+2024-07-16 21:11:42,407:INFO:Fetched data for APOLLO with 1603 records
+2024-07-16 21:11:43,537:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APOLLO.csv
+2024-07-16 21:11:45,002:INFO:Fetched data for APOLLOHOSP with 2359 records
+2024-07-16 21:11:46,643:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APOLLOHOSP.csv
+2024-07-16 21:11:47,374:INFO:Fetched data for APOLLOPIPE with 1163 records
+2024-07-16 21:11:48,207:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APOLLOPIPE.csv
+2024-07-16 21:11:49,776:INFO:Fetched data for APOLLOTYRE with 2359 records
+2024-07-16 21:11:51,265:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APOLLOTYRE.csv
+2024-07-16 21:11:52,702:INFO:Fetched data for APOLSINHOT with 2146 records
+2024-07-16 21:11:54,133:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APOLSINHOT.csv
+2024-07-16 21:11:55,678:INFO:Fetched data for APTECHT with 2359 records
+2024-07-16 21:11:57,160:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APTECHT.csv
+2024-07-16 21:11:57,654:INFO:Fetched data for APTUS with 718 records
+2024-07-16 21:11:58,110:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\APTUS.csv
+2024-07-16 21:11:59,960:INFO:Fetched data for ARCHIDPLY with 2359 records
+2024-07-16 21:12:02,101:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARCHIDPLY.csv
+2024-07-16 21:12:03,923:INFO:Fetched data for ARCHIES with 2359 records
+2024-07-16 21:12:05,361:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARCHIES.csv
+2024-07-16 21:12:06,958:INFO:Fetched data for ARE&M with 2359 records
+2024-07-16 21:12:08,421:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARE&M.csv
+2024-07-16 21:12:09,317:INFO:Fetched data for ARENTERP with 1173 records
+2024-07-16 21:12:10,001:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARENTERP.csv
+2024-07-16 21:12:11,667:INFO:Fetched data for ARIES with 2359 records
+2024-07-16 21:12:13,029:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARIES.csv
+2024-07-16 21:12:13,564:INFO:Fetched data for ARIHANTCAP with 766 records
+2024-07-16 21:12:14,161:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARIHANTCAP.csv
+2024-07-16 21:12:15,330:INFO:Fetched data for ARIHANTSUP with 1807 records
+2024-07-16 21:12:16,469:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARIHANTSUP.csv
+2024-07-16 21:12:17,908:INFO:Fetched data for ARMANFIN with 2001 records
+2024-07-16 21:12:19,187:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARMANFIN.csv
+2024-07-16 21:12:20,794:INFO:Fetched data for AROGRANITE with 2359 records
+2024-07-16 21:12:22,379:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AROGRANITE.csv
+2024-07-16 21:12:23,764:INFO:Fetched data for ARROWGREEN with 2234 records
+2024-07-16 21:12:25,205:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARROWGREEN.csv
+2024-07-16 21:12:26,651:INFO:Fetched data for ARSHIYA with 2359 records
+2024-07-16 21:12:28,137:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARSHIYA.csv
+2024-07-16 21:12:28,827:INFO:Fetched data for ARTEMISMED with 1111 records
+2024-07-16 21:12:29,508:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARTEMISMED.csv
+2024-07-16 21:12:30,108:INFO:Fetched data for ARTNIRMAN with 785 records
+2024-07-16 21:12:30,623:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARTNIRMAN.csv
+2024-07-16 21:12:31,238:INFO:Fetched data for ARVEE with 889 records
+2024-07-16 21:12:31,798:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARVEE.csv
+2024-07-16 21:12:33,562:INFO:Fetched data for ARVIND with 2359 records
+2024-07-16 21:12:35,045:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARVIND.csv
+2024-07-16 21:12:35,890:INFO:Fetched data for ARVINDFASN with 1326 records
+2024-07-16 21:12:36,624:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARVINDFASN.csv
+2024-07-16 21:12:38,207:INFO:Fetched data for ARVSMART with 2197 records
+2024-07-16 21:12:39,527:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ARVSMART.csv
+2024-07-16 21:12:41,217:INFO:Fetched data for ASAHIINDIA with 2359 records
+2024-07-16 21:12:42,888:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASAHIINDIA.csv
+2024-07-16 21:12:44,339:INFO:Fetched data for ASAHISONG with 2359 records
+2024-07-16 21:12:45,856:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASAHISONG.csv
+2024-07-16 21:12:47,319:INFO:Fetched data for ASAL with 2338 records
+2024-07-16 21:12:48,923:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASAL.csv
+2024-07-16 21:12:49,824:INFO:Fetched data for ASALCBR with 1117 records
+2024-07-16 21:12:50,850:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASALCBR.csv
+2024-07-16 21:12:52,413:INFO:Fetched data for ASHAPURMIN with 2359 records
+2024-07-16 21:12:53,920:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASHAPURMIN.csv
+2024-07-16 21:12:55,419:INFO:Fetched data for ASHIANA with 2359 records
+2024-07-16 21:12:57,058:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASHIANA.csv
+2024-07-16 21:12:58,605:INFO:Fetched data for ASHIMASYN with 2326 records
+2024-07-16 21:13:00,030:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASHIMASYN.csv
+2024-07-16 21:13:01,635:INFO:Fetched data for ASHOKA with 2359 records
+2024-07-16 21:13:03,163:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASHOKA.csv
+2024-07-16 21:13:03,385:INFO:Fetched data for ASHOKAMET with 261 records
+2024-07-16 21:13:03,557:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASHOKAMET.csv
+2024-07-16 21:13:05,257:INFO:Fetched data for ASHOKLEY with 2359 records
+2024-07-16 21:13:06,786:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASHOKLEY.csv
+2024-07-16 21:13:07,259:INFO:Fetched data for ASIANENE with 656 records
+2024-07-16 21:13:07,681:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASIANENE.csv
+2024-07-16 21:13:09,360:INFO:Fetched data for ASIANHOTNR with 2356 records
+2024-07-16 21:13:10,702:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASIANHOTNR.csv
+2024-07-16 21:13:12,298:INFO:Fetched data for ASIANPAINT with 2359 records
+2024-07-16 21:13:13,862:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASIANPAINT.csv
+2024-07-16 21:13:15,536:INFO:Fetched data for ASIANTILES with 2359 records
+2024-07-16 21:13:17,204:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASIANTILES.csv
+2024-07-16 21:13:17,372:INFO:Fetched data for ASKAUTOLTD with 165 records
+2024-07-16 21:13:17,515:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASKAUTOLTD.csv
+2024-07-16 21:13:17,775:INFO:Fetched data for ASMS with 344 records
+2024-07-16 21:13:17,976:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASMS.csv
+2024-07-16 21:13:19,272:INFO:Fetched data for ASPINWALL with 2001 records
+2024-07-16 21:13:20,631:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASPINWALL.csv
+2024-07-16 21:13:22,175:INFO:Fetched data for ASTEC with 2359 records
+2024-07-16 21:13:23,659:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASTEC.csv
+2024-07-16 21:13:24,919:INFO:Fetched data for ASTERDM with 1580 records
+2024-07-16 21:13:26,180:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASTERDM.csv
+2024-07-16 21:13:28,407:INFO:Fetched data for ASTRAL with 2359 records
+2024-07-16 21:13:30,680:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASTRAL.csv
+2024-07-16 21:13:32,320:INFO:Fetched data for ASTRAMICRO with 2359 records
+2024-07-16 21:13:34,297:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASTRAMICRO.csv
+2024-07-16 21:13:36,562:INFO:Fetched data for ASTRAZEN with 2359 records
+2024-07-16 21:13:38,548:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASTRAZEN.csv
+2024-07-16 21:13:39,855:INFO:Fetched data for ASTRON with 1619 records
+2024-07-16 21:13:41,579:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ASTRON.csv
+2024-07-16 21:13:42,345:INFO:Fetched data for ATALREAL with 744 records
+2024-07-16 21:13:42,847:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATALREAL.csv
+2024-07-16 21:13:43,099:INFO:Fetched data for ATAM with 295 records
+2024-07-16 21:13:43,294:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATAM.csv
+2024-07-16 21:13:44,997:INFO:Fetched data for ATFL with 2359 records
+2024-07-16 21:13:46,418:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATFL.csv
+2024-07-16 21:13:47,471:INFO:Fetched data for ATGL with 1410 records
+2024-07-16 21:13:48,369:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATGL.csv
+2024-07-16 21:13:48,611:INFO:Fetched data for ATL with 230 records
+2024-07-16 21:13:48,747:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATL.csv
+2024-07-16 21:13:50,538:INFO:Fetched data for ATLANTAA with 2359 records
+2024-07-16 21:13:52,138:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATLANTAA.csv
+2024-07-16 21:13:53,695:INFO:Fetched data for ATUL with 2359 records
+2024-07-16 21:13:55,187:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATUL.csv
+2024-07-16 21:13:56,639:INFO:Fetched data for ATULAUTO with 2359 records
+2024-07-16 21:13:58,150:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\ATULAUTO.csv
+2024-07-16 21:13:59,169:INFO:Fetched data for AUBANK with 1737 records
+2024-07-16 21:14:00,309:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AUBANK.csv
+2024-07-16 21:14:01,804:INFO:Fetched data for AURIONPRO with 2359 records
+2024-07-16 21:14:03,384:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AURIONPRO.csv
+2024-07-16 21:14:04,987:INFO:Fetched data for AUROPHARMA with 2359 records
+2024-07-16 21:14:06,694:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AUROPHARMA.csv
+2024-07-16 21:14:08,214:INFO:Fetched data for AURUM with 2202 records
+2024-07-16 21:14:09,549:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AURUM.csv
+2024-07-16 21:14:11,223:INFO:Fetched data for AUSOMENT with 2278 records
+2024-07-16 21:14:12,639:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AUSOMENT.csv
+2024-07-16 21:14:14,222:INFO:Fetched data for AUTOAXLES with 2359 records
+2024-07-16 21:14:15,978:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AUTOAXLES.csv
+2024-07-16 21:14:17,534:INFO:Fetched data for AUTOIND with 2359 records
+2024-07-16 21:14:19,101:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AUTOIND.csv
+2024-07-16 21:14:20,221:INFO:Fetched data for AVADHSUGAR with 1723 records
+2024-07-16 21:14:21,396:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AVADHSUGAR.csv
+2024-07-16 21:14:21,805:INFO:Fetched data for AVALON with 649 records
+2024-07-16 21:14:22,150:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AVALON.csv
+2024-07-16 21:14:23,746:INFO:Fetched data for AVANTIFEED with 2291 records
+2024-07-16 21:14:25,149:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AVANTIFEED.csv
+2024-07-16 21:14:25,834:INFO:Fetched data for AVG with 889 records
+2024-07-16 21:14:26,431:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AVG.csv
+2024-07-16 21:14:26,973:INFO:Fetched data for AVROIND with 797 records
+2024-07-16 21:14:27,435:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AVROIND.csv
+2024-07-16 21:14:29,161:INFO:Fetched data for AVTNPL with 2359 records
+2024-07-16 21:14:30,528:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AVTNPL.csv
+2024-07-16 21:14:31,247:INFO:Fetched data for AWHCL with 876 records
+2024-07-16 21:14:31,780:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AWHCL.csv
+2024-07-16 21:14:32,180:INFO:Fetched data for AWL with 532 records
+2024-07-16 21:14:32,522:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AWL.csv
+2024-07-16 21:14:34,198:INFO:Fetched data for AXISBANK with 2359 records
+2024-07-16 21:14:35,508:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AXISBANK.csv
+2024-07-16 21:14:37,199:INFO:Fetched data for AXISCADES with 2359 records
+2024-07-16 21:14:38,789:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AXISCADES.csv
+2024-07-16 21:14:39,322:INFO:Fetched data for AXITA with 513 records
+2024-07-16 21:14:39,634:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AXITA.csv
+2024-07-16 21:14:41,047:INFO:Fetched data for AYMSYNTEX with 2205 records
+2024-07-16 21:14:42,592:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AYMSYNTEX.csv
+2024-07-16 21:14:42,766:INFO:Fetched data for AZAD with 136 records
+2024-07-16 21:14:42,852:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\AZAD.csv
+2024-07-16 21:14:43,478:INFO:Fetched data for BAFNAPH with 918 records
+2024-07-16 21:14:44,292:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAFNAPH.csv
+2024-07-16 21:14:45,929:INFO:Fetched data for BAGFILMS with 2359 records
+2024-07-16 21:14:48,027:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAGFILMS.csv
+2024-07-16 21:14:48,333:INFO:Fetched data for BAIDFIN with 366 records
+2024-07-16 21:14:48,583:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAIDFIN.csv
+2024-07-16 21:14:50,254:INFO:Fetched data for BAJAJ-AUTO with 2359 records
+2024-07-16 21:14:51,697:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJ-AUTO.csv
+2024-07-16 21:14:53,349:INFO:Fetched data for BAJAJCON with 2359 records
+2024-07-16 21:14:54,762:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJCON.csv
+2024-07-16 21:14:56,249:INFO:Fetched data for BAJAJELEC with 2359 records
+2024-07-16 21:14:57,847:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJELEC.csv
+2024-07-16 21:14:59,287:INFO:Fetched data for BAJAJFINSV with 2359 records
+2024-07-16 21:15:00,782:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJFINSV.csv
+2024-07-16 21:15:01,261:INFO:Fetched data for BAJAJHCARE with 669 records
+2024-07-16 21:15:01,659:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJHCARE.csv
+2024-07-16 21:15:03,385:INFO:Fetched data for BAJAJHIND with 2359 records
+2024-07-16 21:15:04,723:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJHIND.csv
+2024-07-16 21:15:06,345:INFO:Fetched data for BAJAJHLDNG with 2359 records
+2024-07-16 21:15:07,760:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJAJHLDNG.csv
+2024-07-16 21:15:07,993:INFO:Fetched data for BAJEL with 142 records
+2024-07-16 21:15:08,120:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJEL.csv
+2024-07-16 21:15:09,698:INFO:Fetched data for BAJFINANCE with 2359 records
+2024-07-16 21:15:11,259:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BAJFINANCE.csv
+2024-07-16 21:15:12,848:INFO:Fetched data for BALAJITELE with 2359 records
+2024-07-16 21:15:14,361:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALAJITELE.csv
+2024-07-16 21:15:15,807:INFO:Fetched data for BALAMINES with 2359 records
+2024-07-16 21:15:17,301:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALAMINES.csv
+2024-07-16 21:15:18,796:INFO:Fetched data for BALKRISHNA with 2188 records
+2024-07-16 21:15:20,062:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALKRISHNA.csv
+2024-07-16 21:15:21,621:INFO:Fetched data for BALKRISIND with 2359 records
+2024-07-16 21:15:23,041:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALKRISIND.csv
+2024-07-16 21:15:24,615:INFO:Fetched data for BALMLAWRIE with 2359 records
+2024-07-16 21:15:26,117:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALMLAWRIE.csv
+2024-07-16 21:15:27,642:INFO:Fetched data for BALPHARMA with 2359 records
+2024-07-16 21:15:29,094:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALPHARMA.csv
+2024-07-16 21:15:30,503:INFO:Fetched data for BALRAMCHIN with 2359 records
+2024-07-16 21:15:32,088:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BALRAMCHIN.csv
+2024-07-16 21:15:33,466:INFO:Fetched data for BANARBEADS with 2344 records
+2024-07-16 21:15:34,993:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BANARBEADS.csv
+2024-07-16 21:15:36,446:INFO:Fetched data for BANARISUG with 2356 records
+2024-07-16 21:15:38,938:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BANARISUG.csv
+2024-07-16 21:15:41,377:INFO:Fetched data for BANCOINDIA with 2359 records
+2024-07-16 21:15:43,413:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BANCOINDIA.csv
+2024-07-16 21:15:44,640:INFO:Fetched data for BANDHANBNK with 1560 records
+2024-07-16 21:15:46,170:INFO:Saved data to C:\Users\muniv\Desktop\Market\upstox_daily\BANDHANBNK.csv
+2024-07-16 21:15:48,687:INFO:Fetched data for BANG with 2268 records
